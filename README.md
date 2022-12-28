@@ -28,8 +28,8 @@ This core has been tested against a co-simulation model and exercised on FPGA.
 
 ## Testing
 
-To test all the 40 level instructions, 6 full RISC-V programs were written and tested on the pipelined processor.
-Each program contains a mixture of instructions from all 6 types but mainly targets a certain format out of the six. Each program tests the three types of hazards in multiple occasions as well. 
+To test all the 40 level instructions and the 8 Integer Multiplication and division instructions, full RISC-V programs were written and tested on the pipelined processor.
+Each program contains a mixture of instructions from all 6 types but mainly targets a certain format out of the six. Each program enforces the three types of hazards in multiple occasions as well to test how the core will handle them. 
 For each file, the result was recorded and compared with RARS RISCV simulator, and Venus RISCV simulator.
 
 *NOTE: the complete RISC-V test programs, their respective binary representation and the resulting waveforms are all included in the testing folder*
