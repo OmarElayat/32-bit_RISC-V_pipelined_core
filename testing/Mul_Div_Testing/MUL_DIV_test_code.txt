@@ -1,0 +1,24 @@
+addi x1,x0,17
+addi x2,x0,9
+addi x3,x0,25
+sw x1, 200(x0)
+sw x2, 204(x0)
+sw x3, 208(x0)
+add x0, x0, x0
+lw x1, 200(x0)
+lw x2, 204(x0)
+lw x3, 208(x0)
+or x4, x1, x2
+beq x4, x3, l1
+add x10, x3, x0
+add x3, x1, x2
+l1:add x5, x3, x2
+sw x5, 12(x0)
+lw x6, 12(x0)
+and x7, x6, x1
+sub x8, x1, x2
+add x0, x1, x2
+add x9, x0, x1
+mul x10,x1,x2
+mulh x11,x1,x3
+div x12,x3,x2

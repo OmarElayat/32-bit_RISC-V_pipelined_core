@@ -1,0 +1,18 @@
+li x1, 15
+li x2, 20
+li x3, 40
+jal x7,l1  #taken
+li x5, -5
+li x6, -13
+li x19, 5
+li x22, 2
+l1:sub x8, x3,x5
+and x7,x7,x8
+bge x6,x2,l3  #not taken
+bgeu x6,x2,l3 #taken
+or x8, x8,x5
+l3: bltu x6,x3,l4 #not taken
+jalr x3, 12(x3)  #taken
+add x1,x1,x1
+add x1,x1,x1
+l4:sltu x8, x2,x5

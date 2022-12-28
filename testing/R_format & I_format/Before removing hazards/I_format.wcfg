@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="full_path_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="full_path_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="64391000fs"></ZoomStartTime>
+      <ZoomEndTime time="3064391001fs"></ZoomEndTime>
+      <Cursor1Time time="2564391000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="135"></NameColumnWidth>
+      <ValueColumnWidth column_width="83"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/full_path_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/PC/q" type="array">
+      <obj_property name="ElementShortName">q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/ReadS1" type="array">
+      <obj_property name="ElementShortName">ReadS1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadS1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/ReadS2" type="array">
+      <obj_property name="ElementShortName">ReadS2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadS2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/Writeaddr" type="array">
+      <obj_property name="ElementShortName">Writeaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Writeaddr[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/immediate_gen/Imm" type="array">
+      <obj_property name="ElementShortName">Imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/My_extended_ALU/r" type="array">
+      <obj_property name="ElementShortName">r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/My_extended_ALU/cf" type="logic">
+      <obj_property name="ElementShortName">cf</obj_property>
+      <obj_property name="ObjectShortName">cf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/My_extended_ALU/zf" type="logic">
+      <obj_property name="ElementShortName">zf</obj_property>
+      <obj_property name="ObjectShortName">zf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/My_extended_ALU/vf" type="logic">
+      <obj_property name="ElementShortName">vf</obj_property>
+      <obj_property name="ObjectShortName">vf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/My_extended_ALU/sf" type="logic">
+      <obj_property name="ElementShortName">sf</obj_property>
+      <obj_property name="ObjectShortName">sf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/My_extended_ALU/alufn" type="array">
+      <obj_property name="ElementShortName">alufn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alufn[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/ALU_ctrl/ALUOP" type="array">
+      <obj_property name="ElementShortName">ALUOP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOP[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/ALU_ctrl/Inst1" type="array">
+      <obj_property name="ElementShortName">Inst1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Inst1[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/ALU_ctrl/Inst2" type="logic">
+      <obj_property name="ElementShortName">Inst2</obj_property>
+      <obj_property name="ObjectShortName">Inst2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/ALU_ctrl/ALU_SEL" type="array">
+      <obj_property name="ElementShortName">ALU_SEL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_SEL[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/IC_mem/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/out" type="array">
+      <obj_property name="ElementShortName">out[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_path_tb/uut/Reg_file/out[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

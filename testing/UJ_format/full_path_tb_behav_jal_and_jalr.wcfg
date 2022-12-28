@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="full_path_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="full_path_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="85384666fs"></ZoomStartTime>
+      <ZoomEndTime time="875529102fs"></ZoomEndTime>
+      <Cursor1Time time="915461000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="130"></NameColumnWidth>
+      <ValueColumnWidth column_width="68"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/full_path_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/branch_ctrl_unit/b_ctrl_out" type="logic">
+      <obj_property name="ElementShortName">b_ctrl_out</obj_property>
+      <obj_property name="ObjectShortName">b_ctrl_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/IC_mem/addr" type="array">
+      <obj_property name="ElementShortName">addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/IC_mem/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/IC_mem/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:63][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:63][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/ReadS1" type="array">
+      <obj_property name="ElementShortName">ReadS1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadS1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/ReadS2" type="array">
+      <obj_property name="ElementShortName">ReadS2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadS2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/Writeaddr" type="array">
+      <obj_property name="ElementShortName">Writeaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Writeaddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/PC_RCA/A" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      <obj_property name="label">pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/load" type="array">
+      <obj_property name="ElementShortName">load[31:0]</obj_property>
+      <obj_property name="ObjectShortName">load[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/out" type="array">
+      <obj_property name="ElementShortName">out[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/temp" type="array">
+      <obj_property name="ElementShortName">temp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_path_tb/uut/Reg_file/n" type="array">
+      <obj_property name="ElementShortName">n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">n[31:0]</obj_property>
+   </wvobject>
+</wave_config>

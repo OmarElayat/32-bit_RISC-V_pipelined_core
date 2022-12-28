@@ -1,0 +1,7 @@
+lui x3, 61
+auipc x9, 21
+ecall
+addi x3,x0,3
+
+
+; note that li x0,0 is added between each two instructions to avoid data hazards
