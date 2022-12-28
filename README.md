@@ -2,7 +2,7 @@ A 32-bit pipelined RISC-V core with hazard handling written in Verilog and an in
 This core has been tested against a co-simulation model and exercised on FPGA.
 
 ## Overview
-* This project is a 5 stage pipelined RISCV processor that supports all 40 user-level instructions. 
+* This project is a 5 stage pipelined RISCV processor that supports all 40 user-level instructions + 8 Integer Multiplication and division instructions. 
 	* The instructions were divided into six format groups where instructions with similar functionality are grouped together, and each format was designed separately using tailored Verilog modules.
 	* The core is implemented using a single ported byte addressable memory for both data and instructions. 
 	* The processor was modified to handle all kinds of hazards introduced with the implementation of the pipeline. These hazards include: Structural hazards, Data hazards, and Control hazards.
