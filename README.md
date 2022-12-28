@@ -1,4 +1,4 @@
-A 32-bit RISC-V core written in Verilog and an instruction set simulator supporting RV32IM.
+A 32-bit pipelined RISC-V core with hazard handling written in Verilog and an instruction set simulator supporting RV32IM.
 This core has been tested against a co-simulation model and exercised on FPGA.
 
 ## Overview
