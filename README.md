@@ -21,7 +21,7 @@ The whole processor was thoroughly tested using the testbenches in the testing f
 
 ## Assumptions 
 	* Supports Big-endian memory organization
-	* 1 Unified memory for instructions and Data
+	* one Unified memory for instructions and Data
 	* Pipeline Implementation
 	* supports memory of 4 kB
 	* branch outcome decided in Memory stage
@@ -31,4 +31,4 @@ The whole processor was thoroughly tested using the testbenches in the testing f
 
 All RISC-VI 40 instructions and Integer Multiplication and division instructions (8 Instructions).
 
-***For More information about the implementation, testing, verification, and assumptions, please check the attached documentation***
+***For More information about the implementation, testing, verification, and assumptions, please check the attached documentation "Report.pdf" file***
