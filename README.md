@@ -33,8 +33,8 @@ Each program contains a mixture of instructions from all 6 types but mainly targ
 For each file, the result was recorded and compared with RARS RISCV simulator, and Venus RISCV simulator.
 
 *NOTE: the complete RISC-V test programs, their respective binary representation and the resulting waveforms are all included in the testing folder*
-## What Works
+## Conclusion
 
-All RISC-VI 40 instructions and Integer Multiplication and division instructions (8 Instructions).
+All RISC-VI 40 instructions and Integer Multiplication and division instructions (8 Instructions) are behaving as expected.
 
 ***For more information about the implementation, testing, verification, and assumptions, please check the attached documentation "Report.pdf" file***
